@@ -63,9 +63,19 @@ namespace CsProjectHayDay.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GAL {
+        internal static System.Drawing.Bitmap Barn {
             get {
-                object obj = ResourceManager.GetObject("GAL", resourceCulture);
+                object obj = ResourceManager.GetObject("Barn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Map {
+            get {
+                object obj = ResourceManager.GetObject("Map", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -9,7 +9,7 @@ namespace Mechanics
     class AnimalFarm : Farm
     {
         
-        private string[] animalFarm = { "Wheat", "Carrot", "Carrot", "SoyBean", "SugarCane" };
+        private string[] animalFarm = { "Cow", "Chicken", "Pig", "Sheep"};
     
         private const int cost = 200;//cost to buy a new cropfarm 
         private static int maxGlobalLevel = 0; 

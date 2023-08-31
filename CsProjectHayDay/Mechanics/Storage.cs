@@ -3,27 +3,30 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace Mechanics
 {
+
      class Storage : Building
 {
-    private int cap;    // storage for crop
-    private int count;  //curr amount in storage
+    private int siloCap;    // capacity
+     private int capBarn; 
+    private string[] totalSilo;
+    private string[] totalBarn;  //an array of the amount of items that are stored. we will not create new Items everytime we will use the once in world the format is "Id-amount" 
 
-    protected int Cap
+    protected int SiloCap
     {
-        get { return cap; }
-        set { cap = value; }
+        get { return siloCap; }
+        set { siloCap = value; }
     }
-
-    protected int Count
+        protected int BarnCap
     {
-        get { return count; }
-        set { count = value; }
+        get { return siloCap; }
+        set { siloCap = value; }
     }
-
-    
-
+        public void PrintAllItems()
+    {
+        
+    }
+   
 }
 }
